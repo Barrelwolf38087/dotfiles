@@ -1,5 +1,9 @@
 My dotfiles.
 
+![Desktop.png](/Desktop.png)
+![SingleEditor.png](/SingleEditor.png)
+![SingleTerm.png](/SingleTerm.png)
+
 ## Deps (probably incomplete):
 - i3-gaps
 - picom (still compton in most distros)
