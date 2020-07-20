@@ -185,6 +185,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Generate a new pywal theme when the background changes
+exec --no-startup-id ~/scripts/enable-auto-pywal
+
 # Restore pywal theme
 exec_always --no-startup-id wal -R
 

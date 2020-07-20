@@ -1,0 +1,3 @@
+#!/bin/zsh
+
+echo "$HOME/bg.png" | entr -n -s 'wal -i ~/bg.png' &
