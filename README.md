@@ -9,6 +9,7 @@ My dotfiles.
 - picom (still compton in most distros)
 - polybar-git (aur)
 - polybar-spotify-git (aur)
+- siji-git (aur)
 - feh
 - zsh
 - zsh-syntax-highlighting
