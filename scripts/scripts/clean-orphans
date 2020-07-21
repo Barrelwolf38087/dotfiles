@@ -1,5 +1,0 @@
-#!/usr/bin/zsh
-
-[[ `pacman -Qqdt | wc -l` = "0" ]] && echo "Nothing to do!" && exit
-
-sudo pacman -Rns `pacman -Qqdt | xargs`
