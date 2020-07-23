@@ -1,0 +1,7 @@
+#!/usr/bin/zsh
+
+cd ~/git/dotfiles/home
+
+find | sed '/^\.$/d' | sed 's|\./||' | while read f; do
+    test -f "$f" && test "$HOME/$f" -nt "$f" && cp -v "$HOME/$f" "$(pwd)/$f"
+done

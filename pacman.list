@@ -1,0 +1,14 @@
+base-devel
+dhcpcd
+git
+go
+i3
+rxvt-unicode
+dmenu
+picom
+feh
+zsh
+zsh-syntax-highlighting
+unclutter
+pulseaudio
+networkmanager
