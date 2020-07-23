@@ -1,0 +1,8 @@
+#!/usr/bin/zsh
+
+REALVIM=/usr/bin/vim
+
+function vim() {
+    [[ -z $1 ]] && "$REALVIM" "$(mktemp -q)" && return
+    "$REALVIM" "$@"
+}

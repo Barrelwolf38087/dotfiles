@@ -48,39 +48,77 @@ XTerm*cursorColor:  #caeef0
 UXTerm*cursorColor: #caeef0
 URxvt*borderColor:  [100]#121521
 
-! Colors 0-15.
-*.color0: #121521
-*color0:  #121521
-*.color1: #119CAC
-*color1:  #119CAC
-*.color2: #4EA8B5
-*color2:  #4EA8B5
-*.color3: #17B4CA
-*color3:  #17B4CA
-*.color4: #25D5E0
-*color4:  #25D5E0
-*.color5: #5AE8EE
-*color5:  #5AE8EE
-*.color6: #B39ABC
-*color6:  #B39ABC
-*.color7: #caeef0
-*color7:  #caeef0
-*.color8: #8da6a8
-*color8:  #8da6a8
-*.color9: #119CAC
-*color9:  #119CAC
-*.color10: #4EA8B5
-*color10:  #4EA8B5
-*.color11: #17B4CA
-*color11:  #17B4CA
-*.color12: #25D5E0
-*color12:  #25D5E0
-*.color13: #5AE8EE
-*color13:  #5AE8EE
-*.color14: #B39ABC
-*color14:  #B39ABC
-*.color15: #caeef0
-*color15:  #caeef0
+
+! special
+*.foreground:   #caeef0
+*.background:   #121521
+*.cursorColor:  #caeef0
+
+! black
+*.color0:       #121521
+*.color8:       #8da6a8
+
+! red
+*.color1:       #119cac
+*.color9:       #119cac
+
+! green
+*.color2:       #4ea8b5
+*.color10:      #4ea8b5
+
+! yellow
+*.color3:       #db1f7f
+*.color11:      #db1f7f
+
+! blue
+*.color4:       #25d5e0
+*.color12:      #25d5e0
+
+! magenta
+*.color5:       #5ae8ee
+*.color13:      #5ae8ee
+
+! cyan
+*.color6:       #b39abc
+*.color14:      #b39abc
+
+! white
+*.color7:       #caeef0
+*.color15:      #caeef0
+
+
+!*.color0: #121521
+!*color0:  #121521
+!*.color1: #119CAC
+!*color1:  #119CAC
+!*.color2: #4EA8B5
+!*color2:  #4EA8B5
+!*.color3: #17B4CA
+!*color3:  #17B4CA
+!*.color4: #25D5E0
+!*color4:  #25D5E0
+!*.color5: #5AE8EE
+!*color5:  #5AE8EE
+!*.color6: #B39ABC
+!*color6:  #B39ABC
+!*.color7: #caeef0
+!*color7:  #caeef0
+!*.color8: #8da6a8
+!*color8:  #8da6a8
+!*.color9: #119CAC
+!*color9:  #119CAC
+!*.color10: #4EA8B5
+!*color10:  #4EA8B5
+!*.color11: #17B4CA
+!*color11:  #17B4CA
+!*.color12: #25D5E0
+!*color12:  #25D5E0
+!*.color13: #5AE8EE
+!*color13:  #5AE8EE
+!*.color14: #B39ABC
+!*color14:  #B39ABC
+!*.color15: #caeef0
+!*color15:  #caeef0
 
 ! Black color that will not be affected by bold highlighting.
 *.color66: #121521

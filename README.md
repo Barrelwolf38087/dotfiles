@@ -13,6 +13,8 @@ My dotfiles.
 - feh
 - zsh
 - zsh-syntax-highlighting
+- unclutter
+- dmenu
 
 **Note:** My zshrc puts the line editor in Vim mode.
 If you don't want that, change the line that starts with `bindkey -v` to `bindkey -e`.

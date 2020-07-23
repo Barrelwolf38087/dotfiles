@@ -1,6 +1,8 @@
 set nocompatible
 filetype off
 
+set encoding=utf-8
+
 set shell=/usr/bin/zsh
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -51,3 +53,5 @@ autocmd BufEnter * :silent !source ~/.zshrc && set_title "%:p - Vim"
 
 " Reset the title on exit
 autocmd VimLeave * :silent !source ~/.zshrc && preexec
+
+au BufRead,BufNewFile *.sh,*.zsh setfiletype zsh

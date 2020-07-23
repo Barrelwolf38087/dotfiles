@@ -230,5 +230,5 @@ exec_always --no-startup-id ~/.fehbg &
 # Key repeat (makes hjkl nagivation in vim/zathura bearable)
 exec_always --no-startup-id xset r rate 300 50
 
-# Replace caps with escape
-exec_always --no-startup-id setxkbmap -option caps:escape
+# Hide the mouse pointer after 5 seconds of inactivity (How did I live without this before?)
+exec_always --no-startup-id zsh -c "killall -q unclutter; unclutter --timeout 5 --ignore-scrolling -b"
