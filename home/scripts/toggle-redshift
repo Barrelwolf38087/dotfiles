@@ -1,0 +1,15 @@
+#!/usr/bin/zsh
+
+# There's definitely a safer way to do this, but it's late
+# and I just want it to work.
+STATEFILE="/tmp/redshift"
+
+if [[ ! -f $STATEFILE ]]; then
+    touch "$STATEFILE"
+    redshift -P -O 4000
+else
+    rm "$STATEFILE"
+    redshift -x
+fi
+
+

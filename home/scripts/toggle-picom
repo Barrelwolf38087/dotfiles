@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+if [ $(pgrep -x picom) ]; then
+    killall -q picom
+else
+    ~/scripts/start-picom
+fi
