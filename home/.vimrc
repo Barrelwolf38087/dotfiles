@@ -28,12 +28,17 @@ set smartindent
 set nowrap
 set incsearch
 
-" Autoinsert matching characters
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
+colo koehler
+
+let mapleader = ","
+
+" Autoinsert matching characters.
+" Turns out this is more annoying than useful.
+"inoremap " ""<left>
+"inoremap ' ''<left>
+"inoremap ( ()<left>
+"inoremap [ []<left>
+"inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
@@ -48,8 +53,16 @@ nnoremap <leader>jD :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>ji :YcmCompleter GotoInclude<CR>
 nnoremap <leader>jr :YcmCompleter GoToReferences<CR>
 
-" Window title setting using a homemade zsh function
-autocmd BufEnter * :silent !source ~/.zshrc && set_title "%:p - Vim"
+" YCM highlight colors
+" #ff1764
+"highlight YcmWarningLine ctermbg=red
+"highlight YcmWarningSign ctermbg=red
+"highlight YcmWarningSection ctermbg=red
+
+" Window title setting using a homemade zsh function.
+" At the time this was written, I didn't know this was a built-in feature.
+"autocmd BufEnter * :silent !source ~/.zshrc && set_title "%:p - Vim"
+set title
 
 " Reset the title on exit
 autocmd VimLeave * :silent !source ~/.zshrc && preexec

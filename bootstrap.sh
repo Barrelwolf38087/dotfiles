@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# WARNING: This script is completely untested and probably doesn't work. *Do not trust it*.
+# DISCLAIMER: This is the ugliest fucking shell script I have ever written, and it probably doesn't even work. You have been warned.
 
 DOTFILES=true
 PACKAGES=true

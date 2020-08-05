@@ -6,3 +6,9 @@ function vim() {
     [[ -z $1 ]] && "$REALVIM" "$(mktemp -q)" && return
     "$REALVIM" "$@"
 }
+
+alias ls='ls --color --group-directories-first'
+alias z='zathura'
+alias s='i3-swallow'
+alias sz='i3-swallow zathura'
+# alias startx='startx -- -ardelay 300 -arinterval 50'

@@ -77,7 +77,7 @@ preexec() {
         print -Pn "\ek%-3~ $a\e\\" # set screen title.  Fix vim: ".
         print -Pn "\e]2;%-3~ $a\a" # set xterm title, via screen "Operating System Command"
         ;;
-      rxvt-unicode-256color)
+      rxvt-unicode-256color|alacritty)
         set_title "%m:%-3~ $a"
         ;;
     esac
@@ -102,4 +102,7 @@ bindkey '^e' edit-command-line
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
 
+export JAVA_HOME=/lib/jvm/java-11-openjdk
 export PATH=$PATH:$HOME/scripts
+
+[[ $TERM = "alacritty" ]] && cat ~/.cache/wal/sequences

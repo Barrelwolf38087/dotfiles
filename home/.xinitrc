@@ -48,6 +48,5 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# Replace caps with escape
-setxkbmap -option caps:escape
+xset r rate 300 50
 exec i3
